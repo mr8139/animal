@@ -15,7 +15,6 @@ public class Dog extends animal1 {
     public void setType(String type) {
         this.type = type;
     }
-
     @Override
     public String toString() {
         return "Dog{" + "name = "+super.name +
